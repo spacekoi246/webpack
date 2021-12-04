@@ -1,0 +1,23 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "Webpack configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacekoi246/webpack.git"
+  },
+  "author": "Luis Diego Hidalgo Aguero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacekoi246/webpack/issues"
+  },
+  "homepage": "https://github.com/spacekoi246/webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
