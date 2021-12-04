@@ -1,11 +1,4 @@
-const saludar = (nombre) => {
-  console.log("Creando etiqueta h1");
-  const h1 = document.createElement("h1");
-  h1.innerText = "Hola " + nombre;
+import { saludar } from "./js/componentes";
+import "./styles.css";
 
-  document.body.append(h1);
-};
-
-const nombre = "Diego";
-
-saludar(nombre);
+saludar("Diego");
